@@ -1,0 +1,344 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Technical Documentation Project</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--BOOTSTRAP-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+		<!--LOCAL CSS-->
+		<link rel="stylesheet" type="text/css" href="technicalDocumentation.css">
+		<!--MOBILE DEVICE SCREEN LAYOUT
+		<link rel="stylesheet" media="screen and (max-width:992px)" href="technicalDocMOBILE.css">-->
+		
+
+			<!--STANDARD DEVICE SCREEN LAYOUT-->
+			<link rel="stylesheet" href="technicalDoc.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="item-Menu">
+				<nav id="navbar">
+					<header>
+						<a href="https://www.python.org/">
+						<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="python-logo"></a>
+						
+						<hr class="border border-primary mt-0">
+					</header>
+					<ul>
+						<li><a class="nav-link text-warning override" href="#Getting_Started_with_Python">
+								Getting Started with Python</a></li>
+						
+						<li><a class="nav-link text-warning override" href="#Getting_Python">Getting Python</a></li>
+						
+				
+						<li><a class="nav-link text-warning override" href="#Learning_Python">
+							Learning Python
+						</a></li>
+							
+						<li>
+						<a class="nav-link text-warning override" href="#Need_Help?">
+							Need Help?
+						</a>
+						</li>
+				
+						<li>
+						<a class="nav-link text-warning override" href="#modules">
+							Modules
+						</a>
+						</li>
+					</ul>
+				</nav>
+			</div>	
+			<!--MAIN CONTENT-->
+			<div class="item-Content">
+				<main class="bg-light mt-0" id="main-doc">
+					<div class="container">
+						<section class="main-section" id="Getting_Started_with_Python">
+							<header>
+								<h1>Getting Started with Python</h1>
+								<hr class="mt-0">
+							</header>
+							<!--CODE ELEMENETS-->
+							<code></code>
+							<article>
+								<h3>
+									Python is a clear and powerful object-oriented programming language, comparable to Perl, Ruby, Scheme, or
+									Java.
+								</h3>
+								<p>
+									Some of Python's notable features:
+								</p>
+								<ul>
+									<li>Uses an elegant syntax, making the programs you write easier to read. </li>
+									<li>Is free software in two senses. It doesn't cost anything to download or use Python, or to include it in
+										your application. Python can also be freely modified and re-distributed because while the language is
+										copyrighted it's available under an open-source license. </li>
+									<li>Runs anywhere, including Mac OS X, Windows, Linux, and Unix, with unofficial builds also available for
+										Android and iOS. </li>
+									<li>Python's interactive mode makes it easy to test short snippets of code. There's also a bundled
+										development environment called IDLE</li>
+								</ul>
+								<p>
+									Some Programming-language features of Python:
+								</p>
+								<ul class="main">
+									<li>
+										A variety of basic data types are available: numbers (floating point, complex, and unlimited-length long
+										integers), strings (both ASCII and Unicode), lists, and dictionaries.
+									</li>
+									<li>
+										Python supports object-oriented programming with classes and multiple inheritances.
+									</li>
+									<li>
+										Data types are strongly and dynamically typed. Mixing incompatible types (e.g. attempting to add a
+										string and a number) causes an exception to be raised, so errors are caught sooner.
+									</li>
+									<li>
+										Python's automatic memory management frees you from having to manually allocate and free memory in your
+										code.
+									</li>
+								</ul>
+								<p>Writing Pythonic code is not hard---but you have to get used to the (PEP) code style rules. You can test,
+									check, and improve your code style at online resources such as <a
+										href="https://www.pythonchecker.com">Pythonchecker.com</a></p>
+							</article>
+						</section>
+						<section class="main-section" id="Getting_Python">
+							<header>
+								<h1>Getting Python</h1>
+								<hr class="mt-0">
+							</header>
+							<!--CODE ELEMENETS-->
+							<code></code>
+							<article>
+								<h3>Before you start, you will need Python on your computer.</h3>
+								<div>
+									<p>
+										Check whether you already have an up to date version of Python installed by entering python in a
+										command line window. If you see a response from a Python interpreter it will include a version
+										number in its initial display. Generally any Python 3.x version will do, as Python makes every
+										attempt to maintain backwards compatibility within major Python versions. Python 2.x and Python 3.x
+										are intentionally not fully compatible. If python starts a Python 2.x interpreter, try entering
+										python3 and see if an up to date version is already installed.
+									</p>
+									<p>
+										If you need to install Python, you may as well download the most recent stable version. This is the
+										one with the highest number that isn't marked as an alpha or beta release. Please see the <a
+											href="https://www.python.org/downloads/">Python downloads page</a> for the most up to date
+										versions of Python. They are available via the yellow download buttons on that page.
+									</p>
+
+									<p>Windows:</p>
+									<ul>
+										<li>The most stable Windows downloads are available from the<a href="https://www.python.org/downloads/windows/">
+											Python
+											for Windows</a> page.</li>
+									</ul>
+
+									<p>Mac:</p>
+									<ul><li>Refer to the<a href="https://www.python.org/downloads/mac-osx/"> Python for Mac OS X Page</a>.</li></ul>								
+
+									<p>Linux:</p>
+									<ul>
+										<li>Red Hat, CentOS or Fedora: install the python3 and python3-devel packages.</li>
+										<li>Debian or Ubuntu: install the python3.x and python3.x-dev packages.</li>
+										<li>Gentoo: install the '=python-3.x*' ebuild (you may have to unmask it first).</li>
+									</ul>
+
+									<p>Other Operating Systems or If installing from Source: </p>
+									<ul>
+										<li>Refer to the<a href="http://www.python.org/download/">General Download Page</a></li>
+									</ul>
+								</div>
+							</article>
+						</section>
+
+						<section class="main-section" id="Learning_Python">
+							<header>
+								<h1>Learning Python</h1>
+								<hr class="mt-0">
+							</header>
+							<article>
+								<h3>Read a tutorial and try some simple experiments with your new Python interpreter.</h3>
+						
+								<!--List Items-->
+								<div class="unordered-list-items">
+									<ul class="main">
+										<li>If you have never programmed before, see <a
+												href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers">BeginnersGuide/NonProgrammers</a>
+											for a list of suitable tutorials.</li>
+									
+										<li>If you have previous programming experience, consult <a
+												href="https://wiki.python.org/moin/BeginnersGuide/Programmers">BeginnersGuide/Programmers</a>,
+											which lists more advanced tutorials.</li>
+									
+										<li>If English isn't your first language, you might be more comfortable with a tutorial that's been
+										translated into your language. Consult python.org's list of <a
+											href="https://wiki.python.org/moin/Languages">Non-English resources</a>.</li>
+									</ul>
+								</div>
+								<div class="main-paragraph">
+									<p>Most tutorials assume that you know how to run a program on your computer. If you are using Windows and
+										need help with this, see <a
+											href="http://www.python.org/doc/faq/windows/#how-do-i-run-a-python-program-under-windows">How do I
+											Run a Program Under Windows</a>. Some sites offer in-browser coding for those who want to learn
+										Python: see <a href="https://www.codecademy.com/learn/learn-python">Codecademy</a> or <a
+											href="https://myhsts.org/">High School Technology Services</a> for general python and <a
+											href="http://www.datacamp.com/">DataCamp</a><a href="https://coding-bootcamps.com/">Coding
+											Bootcamps</a> or <a href="https://www.dataquest.io/">Dataquest</a> for Python for data science.
+										Print a <a href="https://blog.finxter.com/python-cheat-sheet/">cheat sheet</a> of the most important
+										Python features and post it to your office wall until you know the basics well.
+									</p>
+									<p>
+										Once you have read a tutorial, you can browse through <a href="http://docs.python.org/">Python's
+											online documentation</a>. It includes a tutorial that might come in handy, <a
+											href="http://docs.python.org//lib/">a Library Reference</a>that lists all of the modules that
+										come standard with Python, and <a href="http://docs.python.org/ref/">the Language Reference</a> for
+										a complete (if rather dry) explanation of Python's syntax.
+									</p>
+								
+									<p>
+										When you are ready to write your first program, you will need a <a
+											href="https://wiki.python.org/moin/PythonEditors">text editor</a> or an <a
+											href="https://wiki.python.org/moin/IntegratedDevelopmentEnvironments">IDE</a>. If you don't want
+										to use Thonny or something more advanced, then you can use <a
+											href="https://docs.python.org/3/library/idle.html">IDLE</a>, which is bundled with Python and
+										supports <a href="http://idlex.sourceforge.net/">extensions</a>.
+									</p>
+								</div>
+							</article>
+							<!--CODE ELEMENETS-->
+							<code></code>
+							<p>
+							
+							</p>
+						</section>
+
+						<section class="main-section" id="Need_Help?">
+							<header>
+								<h1>Need Help?</h1>
+								<hr class="mt-0">
+							</header>
+						
+							<article>
+								<h3>Finding help when you need it is essential to staying motivated to learn.</h3>
+									<div class="main-paragraph">
+									Take a look at <a href="https://wiki.python.org/moin/BeginnersGuide/Help">BeginnersGuide/Help</a> for mailing lists
+									and newsgroups
+									<p>Most Python books will include an introduction to the language; see <a
+											href="https://wiki.python.org/moin/IntroductoryBooks">IntroductoryBooks</a> for suggested titles.
+									</p>
+									<p>Consult <a href="https://wiki.python.org/moin/BeginnersGuide/Examples">BeginnersGuide/Examples</a> for
+										small programs and little snippets of code that can help you learn.</p>
+									<p>Or, if you prefer to learn Python through listening to a lecture, you can attend a training course or
+										even hire a trainer to come to your company. Consult the <a
+											href="https://wiki.python.org/moin/PythonEvents">PythonEvents</a> page to see if any training
+										courses are scheduled in your area and the <a href="https://wiki.python.org/moin/PythonTraining">PythonTraining</a>
+										page for a list of trainers.
+									</p>
+									<p>Teachers can join the <a href="http://www.python.org/sigs/edu-sig/">EDU-SIG</a>, a mailing list for
+										discussion of Python's use in teaching at any level ranging from K-12 up to university.</p>
+									</div> 
+						
+								<h4>Complete list of Beginner's Guide Pages</h4>
+								<!--FIX THIS OL - PLACE LI'S BEFORE ANCHOR TAGS-->
+								<div class="ordered-list-items">
+									<ol class="main">
+										
+										<li>
+										<a href="https://wiki.python.org/moin/BeginnersGuide?action=AttachFile&do=view&target=PythonDoc%26Start16DEC2010.pdf">BeginnersGuide (PythonDoc&Start16DEC2010.pdf)</a>
+										</li>
+										
+										<li>
+											<a href="https://wiki.python.org/moin/BeginnersGuide/Download">
+											BeginnersGuide/Download
+										</a>
+										</li>
+																		<li><a href="https://wiki.python.org/moin/BeginnersGuide/Help">BeginnersGuide/Help</a></li>
+										<li><a href="https://wiki.python.org/moin/BeginnersGuide/Mathematics">BeginnersGuide/Mathematics</a></li>
+										<li><a href="https://wiki.python.org/moin/BeginnersGuide/Examples">BeginnersGuide/Examples</a></li>
+										<li><a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers">BeginnersGuide/NonProgrammers</a></li>
+										<li><a href="https://wiki.python.org/moin/BeginnersGuide/Overview">BeginnersGuide/Overview</a></li>
+										<li><a href="https://wiki.python.org/moin/BeginnersGuide/Programmers">BeginnersGuide/Programmers</a></li>
+										<li><a href="https://wiki.python.org/moin/BeginnersGuide/Programmers?action=AttachFile&do=view&target=Cpp2Python.pdf">BeginnersGuide/Programmers
+											(Cpp2Python.pdf)</a></li>
+										<li><a href="https://wiki.python.org/moin/BeginnersGuide/Programmers/SimpleExamples">BeginnersGuide/Programmers/SimpleExamples</a></li>
+									</ol>
+								</div>
+								
+							</article>
+							<code></code>
+						</section>
+
+						<section class="main-section" id="modules">
+							<header>
+								<h1>Modules</h1>
+								<hr class="mt-0">
+							</header>
+							<article>
+								<h3>
+									Your primary resource for modules and information is the <a href="http://pypi.python.org/pypi">Python Package
+										Index</a>.
+								</h3>							
+								<ul>
+									<li>
+										If you can't find anything relevant in the Package Index,
+										try searching<a href="http://www.python.org/search/">python.org</a>- you can find anything mentioned
+										on the Python site, in the <a href="http://www.python.org/doc/faq/">FAQs</a>, or in the newsgroup.
+										More info: <a href="http://www.python.org/search/">where to search</a>.
+									</li>
+									<li>
+										You may also try our external guest project, <a href="http://pydoc.net/">pydoc.net</a>, for advanced
+										package and module search.
+									</li>
+									<li>
+										Next, try <a href="http://www.google.com/">Google</a> or another search engine of your choice.
+										Searching for "python" and some relevant keywords will usually find something helpful.
+									</li>
+									<li>
+										Finally, you can try posting a query to the comp.lang.python Usenet group.
+									</li>
+						
+								</ul>
+							</article>
+							<!--CODE ELEMENETS-->
+							<code></code>
+							<!--List Items-->
+						</section>
+            
+            <!--Footer-->
+						<footer class="footer">
+              <h3>Reference</h3>
+							<p>
+								<strong>Note: Content on this page courtesey of</strong><a href="https://wiki.python.org/moin/BeginnersGuide">
+									The Python Wiki Page</a>
+							</p>
+						</footer>
+            <!--Validator Badge-->
+						<div id="cssValidatorBadge">
+							<p>
+								<a href="http://jigsaw.w3.org/css-validator/check/referer">
+									<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+										alt="Valid CSS!" />
+								</a>
+							</p>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+		
+		
+			<!--OPTIONAL JAVASCRIPT-->
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>

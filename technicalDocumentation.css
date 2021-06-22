@@ -1,0 +1,123 @@
+
+body{
+	background: whitesmoke;
+}
+  
+/*DEVICE SCREENS <= 992px*/
+@media screen and (max-width:992px){
+	div.wrapper{
+	height: 100vh;
+	display: grid;
+	grid-gap: 3px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(4,1fr);
+	grid-template-areas: 
+		"m m m m m m m m m m m m"
+		"c c c c c c c c c c c c"
+		"f f f f f f f f f f f f";
+}
+
+nav ul{
+ list-style-type: none;
+ padding-left: 1vw;
+}
+
+img{
+  
+  width: 16vw;
+  
+}
+
+nav ul{
+	text-align: center;
+}
+
+img{
+	width: 100vw;
+}
+
+.item-Menu{
+	background: black;
+	color: white;
+	grid-area: m;
+
+}
+.item-Header{
+	background: rgb(207, 206, 206);
+	grid-area: h;
+}
+
+.item-Content{
+	background: rgb(207, 206, 206);
+	grid-area: c;
+}
+
+.item-Footer{
+	background: rgba(245, 245, 245, 0.815);
+	grid-area: f;
+}
+}
+	
+
+
+
+
+/*DEVICE SCREENS >= 992px*/
+@media screen and (min-width: 992px){
+	div.wrapper{
+	height: 100vh;
+	display: grid;
+	grid-gap: 3px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12,1fr);
+	grid-template-areas: 
+		"m m h h h h h h h h h h"
+		"m m c c c c c c c c c c"
+		"m m f f f f f f f f f f";
+}
+
+nav ul{
+ list-style-type: none;
+ padding-left: 1vw;
+}
+
+img{
+  
+  width: 16vw;
+  
+}
+
+.item-Menu{
+	position: fixed;
+	height: 100vw;
+	width: 16vw;
+	background: black;
+	color: white;
+	grid-area: m;
+
+}
+.item-Header{
+	background: rgb(207, 206, 206);
+	grid-area: h;
+}
+
+.item-Content{
+	background: rgb(207, 206, 206);
+	grid-area: c;
+}
+
+.item-Footer{
+	background: rgba(245, 245, 245, 0.815);
+	grid-area: f;
+}
+
+#cssValidatorBadge p{
+	width: 10%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
